@@ -1,8 +1,2 @@
-[Rule]
-DIRECT,checkip.synology.com
-DIRECT,checkipv6.synology.com
-DIRECT,checkport.synology.com
-DIRECT,ddns.synology.com
-DIRECT,account.synology.com
-DIRECT,checkipv6.quickconnect.to
-DIRECT,global.quickconnect.to
+[General]
+always-real-ip = %APPEND% checkip.synology.com,checkipv6.synology.com,checkport.synology.com,ddns.synology.com,account.synology.com,checkipv6.quickconnect.to,global.quickconnect.to
