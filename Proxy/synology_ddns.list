@@ -1,8 +1,8 @@
 [Rule]
-DOMAIN,checkip.synology.com
-DOMAIN,checkipv6.synology.com
-DOMAIN,checkport.synology.com
-DOMAIN,ddns.synology.com
-DOMAIN,account.synology.com
-DOMAIN,checkipv6.quickconnect.to
-DOMAIN,global.quickconnect.to
+DIRECT,checkip.synology.com
+DIRECT,checkipv6.synology.com
+DIRECT,checkport.synology.com
+DIRECT,ddns.synology.com
+DIRECT,account.synology.com
+DIRECT,checkipv6.quickconnect.to
+DIRECT,global.quickconnect.to
