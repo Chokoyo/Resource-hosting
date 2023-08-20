@@ -1,5 +1,12 @@
-[General]
-always-real-ip = %APPEND% checkip.synology.com,checkipv6.synology.com,checkport.synology.com,ddns.synology.com,account.synology.com,checkipv6.quickconnect.to,global.quickconnect.to
+#!name=My Custom Rule
+#!desc=This is a custom rule
 
 [Rule]
 PROCESS-NAME,ssh,DIRECT
+DOMAIN-SUFFIX,checkip.synology.com,DIRECT
+DOMAIN-SUFFIX,checkipv6.synology.com,DIRECT
+DOMAIN-SUFFIX,checkport.synology.com,DIRECT
+DOMAIN-SUFFIX,ddns.synology.com,DIRECT
+DOMAIN-SUFFIX,account.synology.com,DIRECT
+DOMAIN-SUFFIX,checkipv6.quickconnect.to,DIRECT
+DOMAIN-SUFFIX,global.quickconnect.to,DIRECT
